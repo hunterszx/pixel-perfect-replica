@@ -1,0 +1,10 @@
+@keyframes sun-fade-up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes sun-breathe { 0%, 100% { opacity: .55; transform: scale(1); } 50% { opacity: .8; transform: scale(1.06); } }
+@keyframes sun-fade { from { opacity: 0; } to { opacity: 1; } }
+
+.fade-up { opacity: 0; animation: sun-fade-up .8s cubic-bezier(.2,.7,.2,1) forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up, .sunset-bg__glow, .sunset-bg__img { animation: none !important; opacity: 1; transform: none; }
+  .link-card, .social-btn { transition: none !important; }
+}

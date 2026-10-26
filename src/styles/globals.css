@@ -1,0 +1,27 @@
+:root {
+  --sun-bg: #1b100d;
+  --sun-bg-2: #281710;
+  --sun-card: rgba(38, 24, 19, 0.78);
+  --sun-elevated: rgba(54, 32, 23, 0.88);
+  --sun-primary: #ff8a3d;
+  --sun-secondary: #ffb15c;
+  --sun-gold: #ffd18a;
+  --sun-peach: #ffc4a3;
+  --sun-text: #fff5ec;
+  --sun-muted: #d2b8a7;
+  --sun-border: rgba(255, 190, 135, 0.18);
+  --sun-glow: 0 10px 40px -10px rgba(255, 138, 61, 0.55);
+  --sun-shadow: 0 20px 60px -20px rgba(10, 4, 2, 0.8);
+  --sun-radius: 22px;
+  --sun-radius-sm: 14px;
+  --sun-gap: 1rem;
+  --sun-font: "Geist", "Inter", system-ui, sans-serif;
+  --sun-display: "Fraunces", Georgia, serif;
+}
+
+html, body { background: var(--sun-bg); color: var(--sun-text); font-family: var(--sun-font); margin: 0; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+*, *::before, *::after { box-sizing: border-box; }
+:focus-visible { outline: 2px solid var(--sun-gold); outline-offset: 3px; border-radius: 8px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.skip-link { position: absolute; left: 1rem; top: -3rem; z-index: 10; background: var(--sun-primary); color: var(--sun-bg); padding: .5rem 1rem; border-radius: 999px; font-weight: 600; }
+.skip-link:focus { top: 1rem; }
