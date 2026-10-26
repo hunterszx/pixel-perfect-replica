@@ -1,0 +1,19 @@
+{
+  "siteName": "Your Name",
+  "siteUrl": "",
+  "defaultTitle": "Your Name — a cozy corner at sunset",
+  "titleTemplate": "%s · Your Name",
+  "description": "Personal profile of Your Name: links, socials and a little warm light.",
+  "keywords": ["profile", "links", "personal"],
+  "author": "Your Name",
+  "language": "en",
+  "themeColor": "#1B100D",
+  "robots": "index, follow",
+  "canonicalUrl": "",
+  "favicon": "/favicon.ico",
+  "ogImage": "",
+  "openGraph": { "type": "profile", "locale": "en_US", "siteName": "Your Name" },
+  "twitter": { "card": "summary_large_image", "site": "", "creator": "" },
+  "manifest": { "name": "Your Name", "shortName": "Profile", "backgroundColor": "#1B100D" },
+  "structuredData": { "@context": "https://schema.org", "@type": "Person", "name": "Your Name" }
+}

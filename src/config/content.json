@@ -1,0 +1,14 @@
+{
+  "sections": { "socials": "Find me around", "details": "About", "links": "Links" },
+  "labels": { "openLink": "Open", "opensInNewTab": "(opens in a new tab)" },
+  "status": { "online": "Online", "idle": "Away", "offline": "Offline" },
+  "accessibility": {
+    "avatarFallback": "Profile initials",
+    "socialNav": "Social profiles",
+    "linksRegion": "Featured links",
+    "background": "A warm sunset over distant hills",
+    "skipToContent": "Skip to profile"
+  },
+  "emptyStates": { "links": "No links yet. Add some in profile.json.", "socials": "No social profiles yet." },
+  "footer": { "text": "until the next sunset", "madeWith": "made with warm light" }
+}

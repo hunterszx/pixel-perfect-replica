@@ -1,0 +1,27 @@
+{
+  "displayName": "Your Name",
+  "username": "yourusername",
+  "bio": "Chasing golden hours, slow mornings and quiet evenings. Replace this short bio with a few words about yourself.",
+  "avatar": { "src": "", "alt": "Profile picture of Your Name" },
+  "banner": null,
+  "status": { "state": "online", "text": "watching the sun go down" },
+  "location": "Your City",
+  "socialLinks": [
+    { "platform": "github", "label": "GitHub", "url": "https://github.com/", "icon": "github" },
+    { "platform": "instagram", "label": "Instagram", "url": "https://instagram.com/", "icon": "instagram" },
+    { "platform": "x", "label": "X / Twitter", "url": "https://x.com/", "icon": "twitter" },
+    { "platform": "youtube", "label": "YouTube", "url": "https://youtube.com/", "icon": "youtube" },
+    { "platform": "email", "label": "Email", "url": "mailto:you@example.com", "icon": "mail" }
+  ],
+  "profileDetails": [
+    { "icon": "map-pin", "label": "Location", "value": "Your City" },
+    { "icon": "sparkles", "label": "Into", "value": "music, photography, code" },
+    { "icon": "coffee", "label": "Fuel", "value": "warm coffee" }
+  ],
+  "links": [
+    { "title": "My playlist", "description": "Songs for long golden evenings", "icon": "music", "url": "https://open.spotify.com/", "wide": true },
+    { "title": "Projects", "description": "Things I've been building", "icon": "code", "url": "https://github.com/" },
+    { "title": "Photo journal", "description": "Sunsets I've collected", "icon": "camera", "url": "https://instagram.com/" },
+    { "title": "Say hello", "description": "My inbox is always open", "icon": "mail", "url": "mailto:you@example.com", "wide": true }
+  ]
+}
